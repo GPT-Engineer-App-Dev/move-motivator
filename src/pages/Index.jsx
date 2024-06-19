@@ -22,9 +22,14 @@ const Index = () => {
             <Text mt={2}>Cardio</Text>
           </Box>
         </Flex>
-        <Link to="/log-workout">
-          <Button colorScheme="teal" size="lg">Log Workout</Button>
-        </Link>
+        <Flex width="100%" justifyContent="space-around">
+          <Link to="/log-workout">
+            <Button colorScheme="teal" size="lg">Log Workout</Button>
+          </Link>
+          <Link to="/progress">
+            <Button colorScheme="teal" size="lg">View Progress</Button>
+          </Link>
+        </Flex>
       </VStack>
     </Container>
   );
